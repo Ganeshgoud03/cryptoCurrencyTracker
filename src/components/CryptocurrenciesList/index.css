@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  color: #00e7ff;
+  font-size: 45px;
+}
+
+.coin-table {
+  border: 5px solid #00e7ff;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.heading-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+  height: 5%;
+  color: #ffffff;
+}
+
+.coin-type {
+  margin-left: 8%;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.price-info {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.usd-price {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.euro-price {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.crypto-list {
+  list-style: none;
+}
+
+@media screen and (max-width: 576px) {
+  .main-heading {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .crypto-logo {
+    width: 90%;
+  }
+
+  .heading-row {
+    height: 15%;
+  }
+
+  .coin-table {
+    width: 95%;
+  }
+
+  .coin-type {
+    font-size: 15px;
+  }
+
+  .usd-price {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .euro-price {
+    font-weight: 500;
+    font-size: 15px;
+  }
+}
